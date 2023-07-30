@@ -1,0 +1,205 @@
+.navbarCustom {
+    height: 49px;
+    left: 0px;
+    top: 0px;
+    background-color: #4DB0A6 !important;
+}
+
+.sendMail {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 10px;
+    gap: 8px;
+    width: 120px;
+    height: 30px;
+    background: rgba(77, 176, 166, 0.1);
+    border-radius: 4px;
+    color: #4DB0A6;
+}
+
+.exportedFile {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 8px;
+    gap: 8px;
+    width: 91px;
+    color:#4DB0A6;
+    height: 21px;
+    background: rgba(77, 176, 166, 0.1);
+    border-radius: 24px;
+}
+
+.exportedFileLink {
+    color:#4DB0A6;
+}
+
+.exportedFileName {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 60px;
+    display: inline-block;
+    cursor:pointer;
+}
+
+.dropdown {
+    width: 90px;
+    height: 15px;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    color: #4DB0A6;
+}
+
+.chip,
+.singleChip {
+    background: #4DB0A6 !important;
+}
+
+.completedFileWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 8px;
+    gap: 8px;
+    width: 100px;
+    color:#4DB0A6;
+    height: 21px;
+    background: rgba(77, 176, 166, 0.1);
+    border-radius: 24px;
+    cursor: default;
+}
+.completedFileName{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 60px;
+    display: inline-block;
+    cursor:pointer;
+}
+/*.completedFileIcon{
+    
+}*/
+.activeMonth {
+    color: #4DB0A6 !important;
+    border-bottom: 2px solid #4DB0A6 !important
+}
+
+.welcome {
+    font-size: 12px;
+}
+
+.dropdownCustom>div {
+    border: none;
+}
+.dropdownCustom>div:first-child{
+    padding: 0px 10px 8px 2px;
+    width: 120px;
+}
+.dropdownCustom>span {
+    display: none;
+}
+
+.dropdownArrow {
+    display: none;
+}
+
+.drop_reEsclated {
+    background: #bababa;
+    border-radius: 10px;
+    margin: 0px;
+    text-align: center;
+}
+
+.tdFacility {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 300px;
+    display: inline-block;
+}
+.commentWrapper{
+    width: 75px;
+}
+.commentIcon{
+    float: left;
+    margin: 2px 25px;
+}
+.commentMsg{
+    float: left;
+    margin: 2px 0px;
+    padding-left: 2px;
+}
+.commentMsg>textarea{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 0px 2px;
+    overflow: hidden;
+    width: 75px;
+    display: inline-block;
+    border: none;
+    resize: none;
+}
+.clear{
+    clear: both;
+}
+.completedIcon{
+    position: relative;
+    float: right;
+    top: -30px;
+    left: 5px;
+}
+.completedDate{
+    text-align: center;
+    display: block;
+    width: 150px;
+}
+
+.facilitySearchIcon{
+    float: right;
+    padding-right: 10%;
+    cursor: pointer;
+}
+.facilitySearch{
+    display: flex;
+    margin-right: 25px;
+}
+.facilitySearchInput{
+    height: 30px;
+}
+.facilityfaXmark{
+    margin-top: 6px;
+    margin-left: -20px;
+}
+.statusSort {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.statusSortIcon{
+    display: inline-grid;
+}
+.statusDropdown {
+    width: 130px;
+    display: flex;
+    align-items: baseline;
+}
+.exportedHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    /* padding-top: 5px; */
+}
+
+.formBorder {
+    border: 1px solid #e0dede;
+    margin-left: 10px;
+    margin-right: 10px;
+}

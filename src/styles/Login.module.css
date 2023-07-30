@@ -1,0 +1,29 @@
+.loginBtn {
+    background-color: #4DB0A6 !important;
+    cursor: pointer;
+}
+
+.navbarCustom {
+    height: 49px;
+    left: 0px;
+    top: 0px;
+    background-color: #4DB0A6 !important;
+}
+
+.cs_modal {
+    background-color: none !important;
+}
+
+.mainLogo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.medLogo {
+    padding-left: 10px;
+}

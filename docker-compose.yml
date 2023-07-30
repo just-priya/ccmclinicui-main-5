@@ -1,0 +1,7 @@
+version: '2.2'
+services:
+  ui:
+    image: ccmclinicui:0.0.1
+    ports:
+            - 3000:3000
+    network_mode: "host"

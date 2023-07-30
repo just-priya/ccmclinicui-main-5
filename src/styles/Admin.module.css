@@ -1,0 +1,46 @@
+.activeMenu {
+    border-bottom: 2px solid #4DB0A6 !important;
+}
+
+.navbarCustom {
+    height: 49px;
+    left: 0px;
+    top: 0px;
+    background-color: #363636 !important;
+}
+
+.formBorder {
+    border: 1px solid #e0dede;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.btnColor {
+    background-color: #4DB0A6;
+    color: #FFFFFF;
+    border-color: #4DB0A6;
+}
+
+.greyFont {
+    color: #4DB0A6 !important;
+}
+
+.emailInput{
+    border: solid 1px #4DB0A6;
+}
+
+.react-datepicker-wrapper input{
+    border : 0
+}
+.dateColumn {
+    padding-left: 5px;
+}
+.dateInput {
+    width: 110px;
+    padding-left: 10px;
+}
+.dateCalendarIcon {
+    display: flex;
+    align-items: center;
+}
+
